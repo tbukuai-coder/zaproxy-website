@@ -19,3 +19,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: ${{ secrets.TARGET_URL }}
           rules_file_name: '.github/workflows/rules.tsv'
+          allow_issue_writing: false
